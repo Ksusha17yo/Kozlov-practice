@@ -16,7 +16,7 @@ for i in range(n):
                 kp=kp+1
 print('сумма элементов над главной диагональю: ', s)
 print('их количество: ', kp)
-with open('Козлов_С.А._УБ-22_vivod.txt', 'a+', encoding='utf-8-sig') as f:
+with open('Козлов_С.А._УБ-22_vivod1.txt', 'a+', encoding='utf-8-sig') as f:
     f.write('сумма элементов над главной диагональю: ')
     f.write(str(s))
     f.write('\n')
